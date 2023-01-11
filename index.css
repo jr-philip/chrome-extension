@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input{
+    width: 100%;
+    border: 1px solid #5f9341;
+    padding: 8px;
+    box-sizing: border-box;/*to avoid your input tag to belonger than the body you use these */
+}
+
+button{
+    background-color: #5f9341;
+    color: white;
+    margin-top: 5px;
+    padding: 8px 16px;
+    font-weight: bold;
+    border: 1px solid #5f9341;
+}
+
+#delete-btn{
+    background: white;
+    color: #5f9341;
+    font-weight: bold;
+}
+
+ul{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+li a {
+    /* when using the anchor tag <a> we will have to specify what anchor tag we want to style by stating first its element and the the anchor tag in these case is list item(li) then the anchor tag (a) */
+    color: #5f9341;
+}
